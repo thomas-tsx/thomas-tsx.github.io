@@ -214,8 +214,8 @@ font:
 #social:
   #LinkLabel: Link
 social:
-    GitHub: https://github.com/ShixiangWang
-    简书: http://www.jianshu.com/u/b6608e27dc74
+    GitHub: https://github.com/thomas-tsx
+    简书: https://www.baidu.com/
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -295,9 +295,6 @@ links:
   慕课网: http://www.imooc.com/
   R的极客理想系列: http://blog.fens.me/series-r/
   阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
-  R的极客理想系列: http://blog.fens.me/series-r/
-  谢益辉: https://yihui.name/
-  解螺旋的矿工: http://www.huangshujia.me/
 
 
 # ---------------------------------------------------------------
