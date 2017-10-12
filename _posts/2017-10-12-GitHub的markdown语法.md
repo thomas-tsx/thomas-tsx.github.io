@@ -7,8 +7,6 @@ tags:
 - markdown
 ---
 
-<!-- more -->
-
 注意：本文并非原创。
 
 README
