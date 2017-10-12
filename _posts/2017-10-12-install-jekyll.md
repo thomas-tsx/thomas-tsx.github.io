@@ -62,7 +62,7 @@ Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
 ```she&#39;ll
     jekyll serve --host 0.0.0.0 --detach /** 使用后台模式运行 Jekyll **/
 ```
-更多请参考 http://jekyll.com.cn/docs/usage/
+更多请参考 [Jekyll官方文档](http://jekyll.com.cn/docs/usage/ "Jekyll官方文档")
 
 
 ## QA（问题）
