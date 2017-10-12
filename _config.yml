@@ -121,7 +121,7 @@ menu:
   archives: /archives/
   tags: /tags/
   sitemap: /sitemap.xml
-  commonweal: /404.html
+#  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -139,7 +139,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
+#  commonweal: heartbeat
 
 
 
@@ -237,7 +237,7 @@ alipay: /images/reward_image/alipay-reward-image.jpg
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
 #avatar:
-avatar: /images/icon.jpg
+avatar: /images/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
