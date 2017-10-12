@@ -13,7 +13,7 @@ tags:
 
 <!-- more -->
 
-## 安装rvm（ruby version manager）
+## 1、安装rvm（ruby version manager）
 Jekyll依赖Ruby，直接下载Ruby tar包编译安装太麻烦，所以先安装rvm
 ```she&#39;ll
     gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -21,7 +21,7 @@ Jekyll依赖Ruby，直接下载Ruby tar包编译安装太麻烦，所以先安�
     source /etc/profile.d/rvm.sh
 ```
 
-## 安装 ruby 2.2.1
+## 2、安装 ruby 2.2.1
 执行以下命令安装
 ```she&#39;ll
     sudo yum install libyaml  
@@ -29,7 +29,7 @@ Jekyll依赖Ruby，直接下载Ruby tar包编译安装太麻烦，所以先安�
     rvm use 2.2.1 --default /** 设为默认版本 **/
 ```
 
-## 安装Nodejs
+## 3、安装Nodejs
 Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
 下载 epel-release-6-8.noarch.rpm，执行以下命令安装
 ```she&#39;ll
@@ -38,7 +38,7 @@ Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
     sudo yum install nodejs
 ```
 
-## 安装Jekyll
+## 4、安装Jekyll
 安装 Jekyll，为了加快下载速度，首先修改 gem 源
 ```she&#39;ll
     gem sources --remove https://rubygems.org/
@@ -46,7 +46,7 @@ Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
     gem install jekyll
 ```
 
-## 测试Jekyll
+## 5、测试Jekyll
 ```she&#39;ll
     mkdir jekyll
     cd jekyll
@@ -58,14 +58,14 @@ Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
 ![plot of chunk jekyll](/images/jekyll.png)
 
 
-## 进阶使用
+## 6、进阶使用
 ```she&#39;ll
     jekyll serve --host 0.0.0.0 --detach /** 使用后台模式运行 Jekyll **/
 ```
 更多请参考 [Jekyll官方文档 http://jekyll.com.cn/docs/usage/](http://jekyll.com.cn/docs/usage/ "Jekyll官方文档")
 
 
-## QA（问题）
+## 7、QA（问题）
 
 ![plot of chunk bundler](/images/bundler.png)
 
@@ -74,12 +74,14 @@ Jekyll 还依赖 JavaScript 运行库，需要安装Nodejs
 ```
 千万不要使用 sudo gem install bundler 安装，否则会报以上错误
 
+
 安装bundler之后使用 bundle -v 查看版本发现报如下错误
 ![plot of chunk bundler_error](/images/bundler_error.png)
 执行以下命令耐心等待即可
 ```she&#39;ll
     bundle install
 ```
+
 
 在启动 jekyll server 的时候可能会看到以下类似的错误，基本上缺少什么就安装什么，有时候一次安装不成功就多试几次
 ![plot of chunk jekyll-paginate](/images/jekyll-paginate.png)
