@@ -23,7 +23,7 @@ tags:
 {% highlight r %}
 plot(mtcars$wt, mtcars$mpg)
 {% endhighlight %}
-
+<!-- more -->
 ![plot of chunk unnamed-chunk-1](/figures/unnamed-chunk-1-1.png)
  
  
