@@ -19,6 +19,7 @@ tags:
 - 以下简单介绍CentOS 6 以及 CentOS 7 下安装 gitlab
 - 安装方法大致参照官网，CentOS 6 与 CentOS 7 前置准备工作有些许不同
 
+<!-- more -->
 
 ## CentOS 6 安装 Gitlab
 
