@@ -291,6 +291,9 @@ sidebar:
   #Title: http://example.com/
 links_title: 推荐阅读
 links:
+  简书: http://www.jianshu.com/
+  慕课网: http://www.imooc.com/
+  R的极客理想系列: http://blog.fens.me/series-r/
   阮一峰的网络日志: http://www.ruanyifeng.com/blog/archives.html
   R的极客理想系列: http://blog.fens.me/series-r/
   谢益辉: https://yihui.name/
