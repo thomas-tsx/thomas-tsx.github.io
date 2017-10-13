@@ -53,7 +53,7 @@ tags:
 |Ctrl + Alt + B|跟进接口文件 Declaration（自定义）|
 
 ## 2、IDEA 代码合并冲突解决
-    假设：项目Rcp-test中的 Test.java 类，各有v1.0.1，v1.0.2分支，两人在修改了同一行代码，比如，v1.0.1第10行新增System.out.println("v1.0.1 conflict test");
+假设：项目Rcp-test中的 Test.java 类，各有v1.0.1，v1.0.2分支，两人在修改了同一行代码，比如，v1.0.1第10行新增System.out.println("v1.0.1 conflict test");
 v1.0.2第10行新增System.out.println("v1.0.2 conflict test");
 此时v1.0.2开发者先将此行合并到了master分支，之后v1.0.1开发者再合并到master时就会冲突，会有如下提示
 ![plot of chunk idea_merge1](/images/idea_merge1.png)
@@ -75,10 +75,5 @@ v1.0.2第10行新增System.out.println("v1.0.2 conflict test");
 3、IDEA 对于引用 dubbo 接口会一直有警告提示，Could not autowired，No bean of "ISystemType" type found，原因是 IDEA 只认在配置文件配置的<bean>，而 dubbo 的 reference 是不认的，可以做如下改动去掉警告即可
 ![plot of chunk idea_config4](/images/idea_config4.png)
 
-4、Information:java: javacTask: 源发行版 1.7 需要目标发行版 1.7
-   选择项目，maven，Reimport重新编译即可
-![plot of chunk idea_config5](/images/idea_config5.png)
-
-5、Information:java: javacTask: 源发行版 1.7 需要目标发行版 1.7
-   选择项目，maven，Reimport重新编译即可
+4、Information:java: javacTask: 源发行版 1.7 需要目标发行版 1.7，选择项目，maven，Reimport重新编译即可
 ![plot of chunk idea_config5](/images/idea_config5.png)
