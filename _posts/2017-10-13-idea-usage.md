@@ -72,8 +72,7 @@ v1.0.2第10行新增System.out.println("v1.0.2 conflict test");
 2、IDEA 导入本地 maven 项目，需要区别于 Eclipse 的是，Eclipse 中的 workspace 在 IDEA 里相当于 Project，而在 Eclipse 中的一个个项目，在 IDEA 里面相当于 Module.
 ![plot of chunk idea_config3](/images/idea_config3.png)
 
-3、IDEA 对于引用 dubbo 接口会一直有警告提示，Could not autowired，No bean of "ISystemType" type found，原因是 IDEA 只认在配置文件配置的<bean>，而 dubbo 的 reference 是不认的，可以做如下改动去掉警告即可
-![plot of chunk idea_config3](/images/idea_config3.png)
+3、IDEA 导入本地 maven 项目，需要区别于 Eclipse 的是，Eclipse 中的 workspace 在 IDEA 里相当于 Project，而在 Eclipse 中的一个个项目，在 IDEA 里面相当于 Module.
 ![plot of chunk idea_config4](/images/idea_config4.png)
 
 4、Information:java: javacTask: 源发行版 1.7 需要目标发行版 1.7，选择项目，maven，Reimport重新编译即可
