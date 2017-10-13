@@ -13,11 +13,57 @@ tags:
 
 <!-- more -->
 
+
 ## 1、一些常用快捷键
+| 参数               | 说明                    |
+| ---------------- | --------------------- |
+| afbatch          | 输入数据的类型必须是AffyBatch对象 |
+| bgcorrect.method | 背景校正方法                |
+| bgcorrect.param  | 指定背景校正方法的参数           |
+| normalize.method | 标准化方法                 |
+| normalize.param  | 指定标准化方法的参数            |
+| pmcorrect.method | PM调整方法                |
+| pmcorrect.param  | 指定PM方法参数              |
+| summary.method   | 汇总方法                  |
+| summary.param    | 指定汇总方法的参数             |
+
 |快捷键|说明|
 |----|-----|
 |Ctrl + D|复制行|
-
+|Ctrl + X/Y|删除行|
+|Ctrl + N|查找类|
+|Ctrl + F|查找文本|
+|Ctrl + E|最近打开的文件|
+|Ctrl + G|跳到指定行|
+|Ctrl + L|find next（选中文本时先按Ctrl + F3 find word caret）|
+|Ctrl + Home|跳到文件开头|
+|Ctrl + End|跳到文件结尾|
+|Ctrl + [|跳到 { 开始处|
+|Ctrl + ]|跳到 } 结尾处|
+|Ctrl + F12|展示当前文件结构|
+|Ctrl + H|展示当前类的继承关系|
+|Ctrl + Shift + N|查找文件|
+|Ctrl + Shift + J|整合多行代码为一行|
+|Ctrl + Shift + U|大小写转换|
+|Ctrl + Alt + H|open call hierarchy|
+|Ctrl + Alt + L|格式化代码|
+|Ctrl + Alt + O|优化导入的类和包|
+|Ctrl + Alt + T|Surround with......|
+|Alt + Enter|自动导包|
+|Alt + Insert|生成构造方法或者 setter，getter方法|
+|Alt + 1|快速打开/隐藏 左边工程面板|
+|Alt + 4|打开tomcat控制台|
+|Alt + F1|查找代码所在位置（Open Explorer）|
+|sout + Tab 键|快速创建输出语句（System.out.println()）|
+|psvm + Tab 键|快速创建主函数（public static void main）|
+|fori + Tab 键|快速创建 for 循环|
+|Ctrl + / 或 Ctrl + Shift + /|单行注释或多行注释|
+|Double Shift（按两下Shift）|打开 search everywhere 框|
+|Ctrl + Alt + Shift + S|打开当前项目/模块属性（Project Structure）|
+|Ctrl + W|关闭当前文件 Close（自定义）|
+|Ctrl + Shift + W|关闭所有活动窗口 Close All（自定义）|
+|Ctrl + B|跟进接口实现方法 Implementations（自定义）|
+|Ctrl + Alt + B|跟进接口文件 Declaration（自定义）|
 
 ## 2、IDEA 代码合并冲突解决
 假设：项目Rcp-test中的 Test.java 类，各有v1.0.1，v1.0.2分支，两人在修改了同一行代码，比如，v1.0.1第10行新增System.out.println("v1.0.1 conflict test");
