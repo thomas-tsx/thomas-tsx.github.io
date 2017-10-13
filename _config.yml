@@ -234,6 +234,7 @@ social_icons:
 # reward
 reward_comment: 一壶浊酒喜相逢，古今多少事，都付笑谈中
 alipay: /images/reward_image/alipay-reward-image.jpg
+wechatpay: /images/reward_image/alipay-reward-image.jpg
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
 #avatar:
