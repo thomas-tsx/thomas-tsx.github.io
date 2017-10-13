@@ -1,5 +1,5 @@
 ---
-title: GitHub的markdown语法 
+title: GitHub的markdown语法
 date: 2017-10-12
 categories:
 - Linux
@@ -7,17 +7,18 @@ tags:
 - markdown
 ---
 
-注意：本文并非原创。
+注意：本文并非原创，引用[https://github.com/ShixiangWang/README/blob/master/README.md](https://github.com/ShixiangWang/README/blob/master/README.md "Markdown语法测试")
 
 README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+
+<!-- more -->
+
 ****
 ### Author:果冻虾仁
 ### E-mail:Jelly.K.Wang@qq.com
 ****
-
-<!-- more -->
 
 ## 目录
 * [目录制作](#目录制作)
@@ -35,7 +36,7 @@ README
 * [图片](#图片)
     * 来源于网络的图片
     * GitHub仓库中的图片
-* [链接](#链接) 
+* [链接](#链接)
     * 文字超链接
         *  链接外部URL
         *  链接本仓库里的URL
@@ -47,7 +48,7 @@ README
     * 复选框列表
 * [块引用](#块引用)
 * [代码高亮](#代码高亮)
-* [表格](#表格) 
+* [表格](#表格)
 * [表情](#表情)
 * [diff语法](#diff语法)
 
@@ -104,7 +105,7 @@ ___
 文字高亮功能能使行内部分文字高亮，使用一对反引号。
 语法：
 ```
-`linux` `网络编程` `socket` `epoll` 
+`linux` `网络编程` `socket` `epoll`
 ```
 效果：`linux` `网络编程` `socket` `epoll`
 
@@ -194,7 +195,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 > 本文URL标识符都放置于文末
 
 ### 锚点
-其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
+其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们
 
 |语法|效果|
 |---|---|
