@@ -1,6 +1,6 @@
 ---
-title: CentOs安装Gitlab 
-date: 2017-10-12
+title: CentOs安装Gitlab
+date: 2017-10-12 17:12:51
 categories:
 - Linux
 tags:
@@ -138,4 +138,3 @@ tags:
 ![plot of chunk iptables](/images/email_config2.png)
 ![plot of chunk iptables](/images/email_config3.png)
 ![plot of chunk iptables](/images/gitlab_page.png)
-

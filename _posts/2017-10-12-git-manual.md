@@ -1,6 +1,6 @@
 ---
 title: Git使用手册
-date: 2017-10-12
+date: 2017-10-12 12:38:23
 categories:
 - Linux
 tags:
@@ -72,7 +72,7 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 
 其他系统安装参考<http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000>。
 
-**配置**： 
+**配置**：
 安装完成后，在命令行输入
 ```bash
 $ git config --global user.name "Your Name"
@@ -249,7 +249,7 @@ wsx@wsx-ubuntu:~/桌面/Bioconductor_learn$ git commit -m "first commit"
 wsx@wsx-ubuntu:~/桌面/Bioconductor_learn$ git remote add origin https://github.com/ShixiangWang/bioconductor_learn.git
 
 wsx@wsx-ubuntu:~/桌面/Bioconductor_learn$ git push -u origin masterUsername for 'https://github.com': ShixiangWang
-Password for 'https://ShixiangWang@github.com': 
+Password for 'https://ShixiangWang@github.com':
 对象计数中: 3, 完成.
 写入对象中: 100% (3/3), 243 bytes | 0 bytes/s, 完成.
 Total 3 (delta 0), reused 0 (delta 0)
@@ -371,7 +371,7 @@ Creating a new branch is quick.
 
 然后提交：
 ```bash
-$ git add readme.txt 
+$ git add readme.txt
 $ git commit -m "branch test"
 [dev fec145a] branch test
  1 file changed, 1 insertion(+)

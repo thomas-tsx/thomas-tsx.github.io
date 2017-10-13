@@ -1,6 +1,6 @@
 ---
 title: CentOs 7安装 mongodb
-date: 2017-10-13
+date: 2017-10-13  14:21:33
 categories:
 - Linux
 tags:

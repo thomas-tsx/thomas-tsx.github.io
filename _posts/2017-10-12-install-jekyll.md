@@ -1,6 +1,6 @@
 ---
-title: CentOs 7安装Jekyll 
-date: 2017-10-12
+title: CentOs 7安装Jekyll
+date: 2017-10-12 15:14:23
 categories:
 - Linux
 tags:
