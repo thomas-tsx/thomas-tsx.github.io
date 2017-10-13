@@ -10,17 +10,6 @@ tags:
 注意：本文原创，转载请注明出处。
 
 本文主要记录IDEA在使用过程当中的一些问题，以及一些常用快捷键
-```R
-> bgcorrect.methods()
-[1] "bg.correct" "mas"        "none"       "rma"       
-> normalize.methods(CLLbatch)
- [1] "constant"           "contrasts"          "invariantset"       "loess"              "methods"            "qspline"           
- [7] "quantiles"          "quantiles.robust"   "quantiles.probeset" "scaling"           
-> pmcorrect.methods()
-[1] "mas"        "methods"    "pmonly"     "subtractmm"
-> express.summary.stat.methods()
-[1] "avgdiff"      "liwong"       "mas"          "medianpolish" "playerout"  
-```
 
 | 参数               | 说明                    |
 | ---------------- | --------------------- |
@@ -33,6 +22,16 @@ tags:
 | pmcorrect.param  | 指定PM方法参数              |
 | summary.method   | 汇总方法                  |
 | summary.param    | 指定汇总方法的参数             |
+
+
+
+|快捷键|说明|
+|----|-----|
+|Ctrl + D|复制行|
+|Ctrl + X/Y|删除行|
+|Ctrl + N|查找类|
+|Ctrl + F|查找文本|
+|Ctrl + E|最近打开的文件|
 <!-- more -->
 
 ## 1、一些常用快捷键
