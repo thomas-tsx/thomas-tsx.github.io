@@ -166,13 +166,15 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ### 链接外部URL
 
 |#|语法|效果|
-|---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
-|2|`[我的知乎][zhihu] `|[我的知乎][zhihu] |
+|---|---|---|
+|`不在乎超链接以什么样的形式展示`|`<https://thomas-tsx.github.io/>`|<https://thomas-tsx.github.io/>|
+|``|`[我的博客](https://thomas-tsx.github.io/ "悬浮显示")`|[我的博客](https://thomas-tsx.github.io/ "悬浮显示")|
+|`以新窗口打开超链接，可结合前面两种用法`|`[我的博客](https://thomas-tsx.github.io/ "悬浮显示"){:target="_blank"}`|[我的博客](https://thomas-tsx.github.io/ "悬浮显示"){:target="_blank"}|
 
-语法2由两部分组成：
-- 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
-- 第二部分标记实际URL。
+语法3由三部分组成：
+- 第一部分使用两个中括号，[ ]里的标识符（本例中"我的博客"），可以是数字，字母等的组合，是超链接的显示文本，标识符上下对应就行了（**姑且称之为URL标识符**）
+- 第二部分标记实际URL，以()括起来，里面可以额外设置鼠标悬浮在超链接上显示的文字
+- 第三部分则表示以新窗口的方式打开超链接，markdown超链接默认是在本窗口打开，所以会覆盖当前页面
 
 >使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。
 >>URL标识符是我起的名字，不知道是否准确。囧。。
@@ -183,12 +185,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |----|-----|
 |`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
 |`[Book](./Book)`|[Book](/Book)|
-
-### 使用新窗口打开超链接
-
-|语法|效果|
-|----|-----|
-|`[新窗口打开超链接](https://thomas-tsx.github.io/){:target="_blank"}`|<https://thomas-tsx.github.io/>{:target="_blank"}|
 
 ### 图片链接
 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
