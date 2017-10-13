@@ -8,7 +8,7 @@ tags:
 ---
 
 
-注意：本文并非原创，来自[王诗翔的博客](http://www.flypeom.site/linux/2017/08/14/Git%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/ "Git使用手册")。
+注意：本文并非原创，来自[王诗翔的博客](http://www.flypeom.site/linux/2017/08/14/Git%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/ "Git使用手册"){:target="_blank"}
 
 **目录**：
 

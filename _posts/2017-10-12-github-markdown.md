@@ -7,7 +7,7 @@ tags:
 - markdown
 ---
 
-注意：本文并非原创，引用[https://github.com/ShixiangWang/README/blob/master/README.md](https://github.com/ShixiangWang/README/blob/master/README.md "Markdown语法测试")
+注意：本文并非原创，引用<https://github.com/ShixiangWang/README/blob/master/README.md>{:target="_blank"}
 
 README
 ===========================
