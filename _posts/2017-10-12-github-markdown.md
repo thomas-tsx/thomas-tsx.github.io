@@ -40,7 +40,6 @@ README
     * 文字超链接
         *  链接外部URL
         *  链接本仓库里的URL
-        *  使用新窗口打开超链接
     *  锚点
     * [图片链接](#图片链接)
 * [列表](#列表)
@@ -168,7 +167,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |#|语法|效果|
 |---|---|---|
 |`不在乎超链接以什么样的形式展示`|`<https://thomas-tsx.github.io/>`|<https://thomas-tsx.github.io/>|
-|``|`[我的博客](https://thomas-tsx.github.io/ "悬浮显示")`|[我的博客](https://thomas-tsx.github.io/ "悬浮显示")|
+|`设置超链接展示的文本以及鼠标悬浮显示内容`|`[我的博客](https://thomas-tsx.github.io/ "悬浮显示")`|[我的博客](https://thomas-tsx.github.io/ "悬浮显示")|
 |`以新窗口打开超链接，可结合前面两种用法`|`[我的博客](https://thomas-tsx.github.io/ "悬浮显示"){:target="_blank"}`|[我的博客](https://thomas-tsx.github.io/ "悬浮显示"){:target="_blank"}|
 
 语法3由三部分组成：
