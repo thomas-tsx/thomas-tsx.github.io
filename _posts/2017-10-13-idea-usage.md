@@ -11,9 +11,6 @@ tags:
 
 本文主要记录IDEA在使用过程当中的一些问题，以及一些常用快捷键
 
-<!-- more -->
-
-
 ## 1、快捷键
 以下是一些常用快捷键
 
@@ -25,6 +22,7 @@ tags:
 |Ctrl + F|查找文本|
 |Ctrl + E|最近打开的文件|
 |Ctrl + G|跳到指定行|
+<!-- more -->
 |Ctrl + L|find next（选中文本时先按Ctrl + F3 find word caret）|
 |Ctrl + Home|跳到文件开头|
 |Ctrl + End|跳到文件结尾|
