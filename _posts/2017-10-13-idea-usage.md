@@ -14,18 +14,8 @@ tags:
 <!-- more -->
 
 
-## 1、一些常用快捷键
-| 参数               | 说明                    |
-| ---------------- | --------------------- |
-| afbatch          | 输入数据的类型必须是AffyBatch对象 |
-| bgcorrect.method | 背景校正方法                |
-| bgcorrect.param  | 指定背景校正方法的参数           |
-| normalize.method | 标准化方法                 |
-| normalize.param  | 指定标准化方法的参数            |
-| pmcorrect.method | PM调整方法                |
-| pmcorrect.param  | 指定PM方法参数              |
-| summary.method   | 汇总方法                  |
-| summary.param    | 指定汇总方法的参数             |
+## 1、快捷键
+以下是一些常用快捷键
 
 |快捷键|说明|
 |----|-----|
