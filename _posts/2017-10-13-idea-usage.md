@@ -19,10 +19,10 @@ tags:
 |Ctrl + D|复制行|
 |Ctrl + X/Y|删除行|
 |Ctrl + N|查找类|
+<!-- more -->
 |Ctrl + F|查找文本|
 |Ctrl + E|最近打开的文件|
 |Ctrl + G|跳到指定行|
-<!-- more -->
 |Ctrl + L|find next（选中文本时先按Ctrl + F3 find word caret）|
 |Ctrl + Home|跳到文件开头|
 |Ctrl + End|跳到文件结尾|
