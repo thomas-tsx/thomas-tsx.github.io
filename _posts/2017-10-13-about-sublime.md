@@ -7,11 +7,10 @@ tags:
 - Sublime Text 3
 ---
 
-注意：本文摘录，原文地址 <http://blog.csdn.net/lxyhenpiaoliang/article/details/51939033>
+注意：本文摘录，原文地址 <http://blog.csdn.net/lxyhenpiaoliang/article/details/51939033>{:target="_blank"}
 
 ## 1、安装包管理器
-使用Ctrl+~快捷键或者通过View->Show Console菜单打开命令行，粘贴如下代码  
-测试超链接[example](http://yinping4256.github.io){:target="_blank"}
+使用Ctrl+~快捷键或者通过View->Show Console菜单打开命令行，粘贴如下代码
 <!-- more -->
 > import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ',' ')).read())
 
