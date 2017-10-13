@@ -9,13 +9,11 @@ tags:
 
 注意：本文原创，转载请注明出处。
 
-<!-- more -->
-
 ## 1、下载 Nexus
 Nexus专业版是收费的，所以这里我们下载开源版本 Nexus OSS，目前最新版本为3.X
 下载地址[https://www.sonatype.com/download-oss-sonatype](https://www.sonatype.com/download-oss-sonatype "Nexus下载")
 ![plot of chunk nexus_info](/images/nexus_info.png)
-
+<!-- more -->
 ## 2、	解压缩下载的tar 包
 这里我们使用2.14版本
 ```she&#39;ll
