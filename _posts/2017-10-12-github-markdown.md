@@ -120,6 +120,7 @@ ___
 
 也能实现换行效果，不过这个行间距有点大。
 #### 斜体、粗体、删除线
+
 |语法|效果|
 |----|-----|
 |`*斜体1*`|*斜体1*|
@@ -163,6 +164,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 链接
 ------
 ### 链接外部URL
+
 |#|语法|效果|
 |---|----|-----|
 |1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
@@ -176,12 +178,14 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>URL标识符是我起的名字，不知道是否准确。囧。。
 
 ### 链接本仓库里的URL
+
 |语法|效果|
 |----|-----|
 |`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
 |`[Book](./Book)`|[Book](/Book)|
 
 ### 使用新窗口打开超链接
+
 |语法|效果|
 |----|-----|
 |`[新窗口打开超链接](https://thomas-tsx.github.io/){:target="_blank"}`|<https://thomas-tsx.github.io/>{:target="_blank"}|
@@ -358,13 +362,4 @@ GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示�
 - 鸟宿池边树，僧推月下门
 ```
 
-
-
 --------------------------------
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
-[weibo]:http://weibo.com/linpiaochen
-[baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
