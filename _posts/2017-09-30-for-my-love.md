@@ -7,8 +7,9 @@ tags:
 - birthday
 ---
 
-<center>
+<div style="text-align: center;">
     <p>今天，是某人的生日</p>
+    <!-- more -->
     <p>首先说一句生日快乐啦</p>
     <p>你说，我从来没给你写过情书</p>
     <p>其实，只是我文笔不好</p>
@@ -63,9 +64,10 @@ tags:
 
     <p>----------------------------------------------------------</p>
 
-    <div style="float: left; margin-left: 1000px; text-align: left;">
-	    <p>日期：2017年09月30日</p>
-	    <p>农历：丁酉鸡年八月十一</p>
-	    <p>署名：汤守禧（你养的猪）</p>
+    <div style="float: left; margin-left: 300px; text-align: left;">  
+    
+      <p>日期：2017年09月30日</p>
+      <p>农历：丁酉鸡年八月十一</p>
+      <p>署名：汤守禧（你养的猪）</p>
     </div>
-  </center>
+  </div>
