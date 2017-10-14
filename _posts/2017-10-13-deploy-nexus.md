@@ -38,7 +38,6 @@ Nexus专业版是收费的，所以这里我们下载开源版本 Nexus OSS，�
 
 ## 6、Nexus基本配置
 1、Nexus 用户，admin默认密码admin123，deployment默认密码deployment123  
-
 2、添加代理仓库
 ```R
   Repository ID：sonatype  
