@@ -37,11 +37,14 @@ Nexus专业版是收费的，所以这里我们下载开源版本 Nexus OSS，�
 访问nexus ：http://0.0.0.0:8082/nexus （改成自己的IP）
 
 ## 6、Nexus基本配置
-1、Nexus 用户，admin默认密码admin123，deployment默认密码deployment123
+1、Nexus 用户，admin默认密码admin123，deployment默认密码deployment123  
+
 2、添加代理仓库
-Repository ID：sonatype
-Repository Name ：Sonatype Repository
-Remote Storage Location ：http://repository.sonatype.org/content/groups/public/
+```R
+  Repository ID：sonatype  
+  Repository Name ：Sonatype Repository
+  Remote Storage Location ：http://repository.sonatype.org/content/groups/public/
+```
 ![plot of chunk nexus_config4](/images/nexus_config4.png)
 ![plot of chunk nexus_config5](/images/nexus_config5.png)
 将添加的sonatype 代理仓库加入到 Public Repositories 仓库组，选中 Public Repositories 点击Configuration ，将 Sonatype Repository 从右侧 Available Repositories 移到左侧 Ordered Group Repositories
