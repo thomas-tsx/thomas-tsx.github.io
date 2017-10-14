@@ -4,7 +4,7 @@ date: 2017-10-12 14:34:23
 categories:
 - Linux
 tags:
-- markdown
+- Markdown
 ---
 
 注意：本文并非原创，引用<https://github.com/ShixiangWang/README/blob/master/README.md>{:target="_blank"}
