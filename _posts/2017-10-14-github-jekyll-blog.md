@@ -16,12 +16,12 @@ tags:
 ## 1、注册Github账号
 1、打开[https://github.com](https://github.com "Github"){:target="_blank"}  
 2、注册Github账号，注意注册的用户名（假如是username），如果你没有额外购买其他域名，那么博客搭建好之后的域名就是https://username.github.io  
-3、建立一个仓库，仓库名称username.github.io(把username替换成你自己的)，这里有两种做法  
-&nbsp;&nbsp;第一：以github用户名命名仓库，以后代码提交到master分支上  
+3、建立一个仓库，这里有两种做法  
+&nbsp;&nbsp;第一：以github用户名命名仓库，以后代码提交到master分支上，仓库名称username.github.io(把username替换成你自己的)  
 &nbsp;&nbsp;第二：仓库命名随意，但是代码必须提交到gh-pages分支上
 
 ## 2、安装Jekyll
-1、关于怎么安装Jekyll前面已经有文章介绍了----------[CentOs 7安装Jekyll](https://thomas-tsx.github.io/linux/2017/10/12/install-jekyll/ "CentOs 7安装Jekyll"){:target="_blank"}
+1、关于怎么安装Jekyll前面已经有文章介绍了----------[CentOs 7安装Jekyll](https://thomas-tsx.github.io/linux/2017/10/12/install-jekyll/ "CentOs 7安装Jekyll"){:target="_blank"}  
 2、到 [Jekyll Theme](http://jekyllthemes.org/ "Jekyll Theme"){:target="_blank"}下载一个自己喜欢的主题，本人最喜欢 [Next](http://jekyllthemes.org/themes/jekyll-theme-next/ "Next Theme"){:target="_blank"}这个主题，简约风格。  
 (最简单粗暴的方式是直接fork别人的博客，然后自己修修改改就变成自己的了[坏笑]，因为原生的主题里面貌似没有评论系统之类的插件扩展)
 
