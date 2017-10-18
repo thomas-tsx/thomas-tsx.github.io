@@ -53,7 +53,21 @@ tags:
 |Ctrl + B|跟进接口实现方法 Implementations（自定义）|
 |Ctrl + Alt + B|跟进接口文件 Declaration（自定义）|
 
-## 2、IDEA 代码合并冲突解决
+## 2、IDEA Debug 快捷键
+以下是一些Debug时常用的快捷键  
+|快捷键|说明|
+|----|-----|
+|F7|在 Debug 模式下，进入下一步，如果当前行断点是一个方法，则进入当前方法体内，如果该方法体还有方法，则不会进入该内嵌的方法中|
+|F8|在 Debug 模式下，进入下一步，如果当前行断点是一个方法，则不进入当前方法体内|
+|F9|在 Debug 模式下，恢复程序运行，但是如果该断点下面代码还有断点则停在下一个断点上|
+|Alt+F8|在 Debug 的状态下，选中对象，弹出可输入计算表达式调试框，查看该输入内容的调试结果|
+|Ctrl+F8|在 Debug 模式下，设置光标当前行为断点，如果当前已经是断点则去掉断点|
+|Shift+F7|在 Debug 模式下，智能步入。断点所在行上有多个方法调用，会弹出进入哪个方法|
+|Shift+F8|在 Debug 模式下，跳出，表现出来的效果跟 F9 一样|
+|Ctrl+Shift+F8|在 Debug 模式下，指定断点进入条件|
+|Alt+Shift+F7|在 Debug 模式下，进入下一步，如果当前行断点是一个方法，则进入当前方法体内，如果方法体还有方法，则会进入该内嵌的方法中，依此循环进入|
+
+## 3、IDEA 代码合并冲突解决
 假设：项目Rcp-test中的 Test.java 类，各有v1.0.1，v1.0.2分支，两人在修改了同一行代码，比如，v1.0.1第10行新增System.out.println("v1.0.1 conflict test");
 v1.0.2第10行新增System.out.println("v1.0.2 conflict test");
 此时v1.0.2开发者先将此行合并到了master分支，之后v1.0.1开发者再合并到master时就会冲突，会有如下提示
@@ -63,7 +77,7 @@ v1.0.2第10行新增System.out.println("v1.0.2 conflict test");
 会看到有三个板块，左侧第一个版本为本地代码（master最新代码），最右侧为将要合并的分支代码（v1.0.1），中间则为合并之后的结果Result，此时自己手动将最左以及最右两个窗口代码合并复制到中间窗口，点击 Apply 即可解决冲突
 ![plot of chunk idea_merge2](/images/idea_merge2.png)
 
-## 3、QA（问题）
+## 4、QA（问题）
 1、IDEA导入Spring项目报如下错误
 ![plot of chunk idea_error1](/images/idea_error1.png)
 打开 Project Structure，点击右边 + 号，弹出界面勾选 Spring 配置即可
