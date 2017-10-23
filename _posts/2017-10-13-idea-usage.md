@@ -30,8 +30,9 @@ tags:
 |Ctrl + ]|跳到 } 结尾处|
 |Ctrl + F12|展示当前文件结构|
 |Ctrl + H|展示当前类的继承关系|
-|Ctrl + Shift + N|查找文件|
+|Ctrl + Shift + F|根据内容查找文件|
 |Ctrl + Shift + J|整合多行代码为一行|
+|Ctrl + Shift + N|查找文件|
 |Ctrl + Shift + U|大小写转换|
 |Ctrl + Alt + H|open call hierarchy|
 |Ctrl + Alt + L|格式化代码|
