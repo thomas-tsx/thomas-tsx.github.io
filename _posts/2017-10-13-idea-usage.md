@@ -40,6 +40,8 @@ tags:
 |Ctrl + Alt + T|Surround with......|
 |Alt + Enter|自动导包|
 |Alt + Insert|生成构造方法或者 setter，getter方法|
+|Alt + Up|向上移动行（自定义）|
+|Alt + Down|向下移动行（自定义）|
 |Alt + 1|快速打开/隐藏 左边工程面板|
 |Alt + 4|打开tomcat控制台|
 |Alt + F1|查找代码所在位置（Open Explorer）|
