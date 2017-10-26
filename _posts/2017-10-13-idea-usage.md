@@ -40,8 +40,8 @@ tags:
 |Ctrl + Alt + T|Surround with......|
 |Alt + Enter|自动导包|
 |Alt + Insert|生成构造方法或者 setter，getter方法|
-|Alt + Up|向上移动行（自定义）|
-|Alt + Down|向下移动行（自定义）|
+|Alt + Up|向上移动行（自定义Move Line Up）|
+|Alt + Down|向下移动行（自定义Move Line Down）|
 |Alt + 1|快速打开/隐藏 左边工程面板|
 |Alt + 4|打开tomcat控制台|
 |Alt + F1|查找代码所在位置（Open Explorer）|
@@ -52,8 +52,8 @@ tags:
 |Double Shift（按两下Shift）|打开 search everywhere 框|
 |Ctrl + Alt + Shift + S|打开当前项目/模块属性（Project Structure）|
 |Ctrl + W|关闭当前文件 Close（自定义）|
-|Ctrl + Shift + W|关闭所有活动窗口 Close All（自定义）|
-|Ctrl + B|跟进接口实现方法 Implementations（自定义）|
+|Ctrl + Shift + W|关闭所有活动窗口 Close All（自定义Close All）|
+|Ctrl + B|跟进接口实现方法 Implementations（自定义Implementations）|
 |Ctrl + Alt + B|跟进接口文件 Declaration（自定义）|
 
 ## 2、IDEA Debug 快捷键
