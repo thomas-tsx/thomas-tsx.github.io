@@ -9,7 +9,7 @@ tags:
 
 注意：本文原创，转载请注明出处。
 
-Atom作为一款非常好用的markdown语法编辑器，功能还是非常强大的，在网上某次发现在编辑时有特效，所以在此记录一下  
+Atom作为一款非常好用的markdown语法编辑器，功能还是非常强大的，某次发现在编辑时有特效，所以在此记录一下  
 先看一下示例，以下图片摘自网上
 ![plot of chunk atom_plugin1](/images/atom_plugin1.jpg)
 <!-- more -->
