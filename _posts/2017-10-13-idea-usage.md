@@ -54,7 +54,8 @@ tags:
 |Ctrl + W|关闭当前文件 Close（自定义）|
 |Ctrl + Shift + W|关闭所有活动窗口 Close All（自定义Close All）|
 |Ctrl + B|跟进接口实现方法 Implementations（自定义Implementations）|
-|Ctrl + Alt + B|跟进接口文件 Declaration（自定义）|
+|Ctrl + Alt + B|跟进接口文件 Declaration（自定义Declaration）|
+|Ctrl + 1|quick fix（自定义show intention actions）|
 
 ## 2、IDEA Debug 快捷键
 以下是一些Debug时常用的快捷键  
