@@ -33,4 +33,9 @@ jstack 9058 > /tmp/log.dat
 ![plot of chunk linux_pid2](/images/linux_pid2.png)
 
 4、将pid号转成16进制，比如9058转成16进制是2362，使用文本编辑器打开log.dat，查找2362可以发现相关信息
-![plot of chunk linux_pid3](/images/linux_pid3.png)
+![plot of chunk linux_pid3](/images/linux_pid3.png)  
+
+5、mysql只能通过localhost连接，而不能通过IP连接，只需打开mysql终端，使用root登陆之后执行以下命令即可：
+```R
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+```
