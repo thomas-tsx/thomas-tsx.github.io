@@ -38,4 +38,6 @@ jstack 9058 > /tmp/log.dat
 5、mysql只能通过localhost连接，而不能通过IP连接，只需打开mysql终端，使用root登陆之后执行以下命令即可：
 ```R
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
-```
+```  
+6、推荐一个很好用的JS在线混淆工具  
+<http://www.javascriptobfuscator.com/Javascript-Obfuscator.aspx>{:target="_blank"}
